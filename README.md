@@ -27,3 +27,19 @@ There are two methods for it:
 
 - setTimeout allows to run a function once after the interval of time.
 - setInterval allows to run a function regularly with the interval between the runs.
+
+## Examples
+
+```cs
+private void Awake () {
+  Timers.SetTimeout(1000, () => {
+    Debug.Log("A second has passed!");
+  });
+  Timers.SetTimeout(1000, Notifiy);
+  Timers.SetInterval(2500, Notifiy);
+}
+
+private void Notify () {
+  Debug.Log("Notify!!");
+}
+```
