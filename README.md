@@ -8,9 +8,11 @@ We may decide to execute a function not right now, but at a certain time later. 
 
 ## Install
 
-```sh
-$ git submodule add https://github.com/unity-packages/timers Assets/packages/timers
 ```
+"com.unity-packages.timers": "git+https://github.com/unity-packages/timers"
+```
+
+[Click here to read the Unity Packages installation guide](https://github.com/unity-packages/installation)
 
 ## Syntax
 

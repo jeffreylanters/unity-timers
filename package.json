@@ -1,0 +1,7 @@
+{
+  "name": "com.unity-packages.timers",
+  "displayName": "Timers",
+  "version": "1.0.0",
+  "unity": "2018.3",
+  "description": "We may decide to execute a function not right now, but at a certain time later. That’s called “scheduling a call”. The Timers class helps you to do so with a clean and short syntax without having to worry about enumerators."
+}
