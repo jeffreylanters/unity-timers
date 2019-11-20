@@ -2,8 +2,7 @@ using System;
 using System.Collections;
 using UnityEngine;
 
-namespace UnityPackages { 
-
+namespace UnityPackages {
   public class TimerTicker : MonoBehaviour {
     public IEnumerator EnumerateSetTimeout (int miliseconds, Action callback) {
       yield return new WaitForSeconds (miliseconds / 1000);
