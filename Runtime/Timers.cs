@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEngine;
 
 namespace UnityPackages {
-  public class Timers {
+  public static class Timers {
     private static TimerTicker _Enumerator;
     private static TimerTicker Enumerator {
       get {
