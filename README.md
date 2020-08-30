@@ -1,18 +1,38 @@
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/elraccoone/unity-timers/master/.github/WIKI/logo.jpg" height="100px"></br>
+
 # Timers
 
-![](https://img.shields.io/badge/dependencies-unity--packages-%233bc6d8.svg) ![](https://img.shields.io/badge/license-MIT-%23ecc531.svg)
+[![npm](https://img.shields.io/badge/upm-1.1.0-232c37.svg?style=for-the-badge)]()
+[![license](https://img.shields.io/badge/license-Custom-%23ecc531.svg?style=for-the-badge)](./LICENSE.md)
+[![npm](https://img.shields.io/badge/sponsor-donate-E12C9A.svg?style=for-the-badge)](https://paypal.me/jeffreylanters)
+[![npm](https://img.shields.io/github/stars/elraccoone/unity-timers.svg?style=for-the-badge)]()
 
 We may decide to execute a function not right now, but at a certain time later. That’s called “scheduling a call”. The Timers class helps you to do so with a clean and short syntax without having to worry about enumerators.
 
-> NOTE When using this Unity Package, make sure to **Star** this repository. When using any of the packages please make sure to give credits to **Jeffrey Lanters** somewhere in your app or game. **THESE PACKAGES ARE NOT ALLOWED TO BE SOLD ANYWHERE!**
+When using any of the packages, please make sure to **Star** this repository and give credit to **Jeffrey Lanters / El Raccoone** somewhere in your app or game. **It it prohibited to sublicense and/or sell copies of the Software in stores such as the Unity Asset Store!**
 
-## Install
+**&Lt;**
+[**Installation**](#installation) &middot;
+[**Documentation**](#documentation) &middot;
+[**License**](./LICENSE.md) &middot;
+[**Sponsor**](https://paypal.me/jeffreylanters)
+**&Gt;**
 
+**Made with &hearts; by Jeffrey Lanters**
+
+</div>
+
+# Installation
+
+Install using the Unity Package Manager. add the following line to your `manifest.json` file located within your project's packages directory.
+
+```json
+"nl.elraccoone.timers": "git+https://github.com/elraccoone/unity-timers"
 ```
-"com.unity-packages.timers": "git+https://github.com/unity-packages/timers"
-```
 
-[Click here to read the Unity Packages installation guide](https://github.com/unity-packages/installation)
+# Documentation
 
 ## Syntax
 
