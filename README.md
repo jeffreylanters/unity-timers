@@ -37,6 +37,7 @@ Install using the Unity Package Manager. add the following line to your `manifes
 ## Syntax
 
 ```cs
+using ElRaccoone.Timers;
 Timers.SetTimeout(/* miliseconds */ 1000, /* callback */ () => { /* ... */ });
 Timers.SetInterval(/* miliseconds */ 1000, /* callback */ () => { /* ... */ });
 ```
