@@ -2,14 +2,13 @@ using System;
 using System.Collections;
 using UnityEngine;
 
-namespace UnityPackages {
+namespace ElRaccoone.Timers {
   public static class Timers {
     private static TimerTicker _Enumerator;
     private static TimerTicker Enumerator {
       get {
         if (_Enumerator == null) {
-          _Enumerator = new GameObject ("~timers")
-            .AddComponent<TimerTicker> ();
+          _Enumerator = new GameObject ("~timers").AddComponent<TimerTicker> ();
           GameObject.DontDestroyOnLoad (_Enumerator);
         }
         return _Enumerator;
