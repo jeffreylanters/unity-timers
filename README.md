@@ -52,7 +52,7 @@ Timers.SetInterval(/* miliseconds */ 1000, /* callback */ () => { /* ... */ });
 
 ## Description
 
-We may decide to execute a function not right now, but at a certain time later. That’s called “scheduling a call”.
+We may decide to execute a function not right now, but at a certain time later. That’s called “scheduling a call”. Note that the timers are using unscaled time.
 
 There are two methods for it:
 
