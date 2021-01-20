@@ -62,15 +62,16 @@ There are two methods for it:
 ## Examples
 
 ```cs
-private void Awake () {
-  Timers.SetTimeout(1000, () => {
-    Debug.Log("A second has passed!");
-  });
-  Timers.SetTimeout(1000, Notifiy);
-  Timers.SetInterval(2500, Notifiy);
-}
-
-private void Notify () {
-  Debug.Log("Notify!!");
+public class MyClass {
+  private void Awake () {
+    Timers.SetTimeout(1000, () => {
+      Debug.Log("A second has passed!");
+    });
+    Timers.SetTimeout(1000, Notifiy);
+    Timers.SetInterval(2500, Notifiy);
+  }
+  private void Notify () {
+    Debug.Log("Notify!!");
+  }
 }
 ```
