@@ -6,9 +6,9 @@
 
 # Timers
 
-[![npm](https://img.shields.io/badge/upm-1.2.0-232c37.svg?style=for-the-badge)]()
-[![npm](https://img.shields.io/github/stars/elraccoone/unity-timers.svg?style=for-the-badge)]()
-[![npm](https://img.shields.io/badge/build-passing-brightgreen.svg?style=for-the-badge)]()
+[![openupm](https://img.shields.io/npm/v/nl.elraccoone.timers?label=UPM&registry_uri=https://package.openupm.com&style=for-the-badge&color=232c37)](https://openupm.com/packages/nl.elraccoone.timers/)
+[![](https://img.shields.io/github/stars/elraccoone/unity-timers.svg?style=for-the-badge)]()
+[![](https://img.shields.io/badge/build-passing-brightgreen.svg?style=for-the-badge)]()
 
 We may decide to execute a function not right now, but at a certain time later. That’s called “scheduling a call”. The Timers class helps you to do so with a clean and short syntax without having to worry about enumerators.
 
