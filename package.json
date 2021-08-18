@@ -3,5 +3,10 @@
   "displayName": "Timers",
   "version": "1.2.0",
   "unity": "2018.3",
-  "description": "We may decide to execute a function not right now, but at a certain time later. That’s called “scheduling a call”. The Timers class helps you to do so with a clean and short syntax without having to worry about enumerators."
+  "description": "We may decide to execute a function not right now, but at a certain time later. That’s called “scheduling a call”. The Timers class helps you to do so with a clean and short syntax without having to worry about enumerators.",
+  "type": "library",
+  "hideInEditor": false,
+  "documentationUrl": "https://github.com/jeffreylanters/unity-timers",
+  "changelogUrl": "https://github.com/jeffreylanters/unity-timers/releases",
+  "licensesUrl": "https://github.com/jeffreylanters/unity-timers/blob/master/LICENSE.md"
 }
